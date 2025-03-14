@@ -10,7 +10,7 @@
 
     <properties>
         <github.url>scm:git:git@github.com:dockstore/silly-workflow-language-interface.git</github.url>
-        <dockstore.version>1.9.0-alpha.0</dockstore.version>
+        <dockstore.version>1.16.0</dockstore.version>
         <plugin.id>${project.artifactId}</plugin.id>
         <plugin.class>io.dockstore.language.SillyWorkflowLanguagePlugin</plugin.class>
         <plugin.version>${project.version}</plugin.version>
@@ -67,7 +67,7 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.0</version>
                     <configuration>
-                        <release>11</release>
+                        <release>17</release>
                         <showDeprecation>true</showDeprecation>
                     </configuration>
                 </plugin>
@@ -174,7 +174,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>24.1.1-jre</version>
+            <version>32.0.0-jre</version>
         </dependency>
     </dependencies>
 </project>
